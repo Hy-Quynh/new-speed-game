@@ -1,0 +1,614 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: unset;
+    color: unset
+}
+
+.frame1 {
+    background: url('../image/frame1-background.png');
+    height: 1000px;
+    padding-top: 23px;
+    background-repeat: round;
+}
+
+.frame1 .menu {
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 69px;
+    padding-right: 69px;
+    max-height: 65px;
+    padding-bottom: 32px;
+}
+
+.frame1 .menu button {
+    background: url('../image/menu-button.png');
+    width: 231px;
+    height: 65px;
+    border: transparent;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.frame1 .menu .content {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 992px) {
+    .frame1 .menu>.content1 {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .frame1 .menu>.content {
+        margin-left: 10px;
+    }
+
+    .frame1 .menu .content6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .frame1 .menu {
+        padding-bottom: 100px;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .frame1 .menu .logo img {
+        width: 200px;
+    }
+
+    .frame1 .menu .content6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .frame1 .menu {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 100px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .frame1 .menu {
+        padding-left: unset;
+        padding-right: unset;
+        padding-bottom: 200px;
+    }
+
+    .frame1 .menu .logo img {
+        width: 150px;
+    }
+
+    .frame1 .menu>div {
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .frame1 .menu .content6 {
+        margin-top: 30px;
+    }
+
+    .frame1 .menu .content6 button {
+        width: 200px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .frame1 .logo .image img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.frame1 .logo .image {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.frame2 {
+    background: url('../image/background\ tổng\ 1.png');
+    background-size: 100%;
+    background-repeat: round;
+    min-height: 1000px;
+}
+
+.frame2 .item1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 114px 214px 117px 37px;
+    align-items: center;
+}
+
+
+.frame2 .item1>div {
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .frame2 .item1>div {
+        width: 100%;
+    }
+
+    .frame2 .item1 .left img {
+        width: 100%;
+        height: 150px
+    }
+
+    .frame2 .item1 {
+        padding: 114px 30px 117px 30px;
+    }
+
+    .frame2 .item1 .right {
+        padding-left: unset !important;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .frame2 .item1 {
+        padding: 114px 50px 117px 30px;
+    }
+}
+
+.frame2 .item1 .right {
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.frame2 .item1 .left img {
+    width: 100%
+}
+
+
+.frame2 .item1 .right .content-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.frame2 .item1 .right .content-bottom {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.frame2 .item2 .title {
+    font-family: 'Luckiest Guy', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+    /* identical to box height */
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.frame2 .item2 .car-frame {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 129px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.frame2 .item2 .car-frame>.car-item {
+    width: 33.333%
+}
+
+.frame2 .item2 .car-frame>.car-item>div {
+    text-align: center;
+}
+
+.frame2 .item2 .car-frame>.car-item>div>button {
+    background-image: url('../image/menu-button.png');
+    width: 231px;
+    height: 65px;
+    background-color: transparent;
+    border: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 116px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .frame2 .item2 .car-frame>.car-item {
+        width: 100% !important
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1300px) {
+    .frame2 .item2 .car-frame .car-item img {
+        width: 200px !important;
+    }
+}
+
+.frame2 .item2 .car-frame .content {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 49px;
+    margin-bottom: 49px;
+}
+
+@media screen and (max-width: 575px) {
+    .frame2 .item2 .car-frame .car-item img {
+        width: 200px;
+    }
+}
+
+.frame2 .item3 {
+    margin-top: 162px;
+}
+
+.frame2 .item3 .title {
+    font-family: 'Luckiest Guy', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.frame2 .item3 .history {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+
+.frame2 .item3 .history img {
+    width: 100%;
+}
+
+.frame2 .item4 {
+    margin-top: 232px;
+}
+
+.frame2 .item4 .title {
+    font-family: 'Luckiest Guy', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.frame2 .item4 .list-car {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 113px;
+}
+
+@media screen and (max-width: 767px) {
+    .frame2 .item4 .list-car>div {
+        width: 100% !important;
+    }
+
+    .frame2 .item4 .list-car {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .frame2 .item4 .list-car .right {
+        padding-left: 10%;
+    }
+}
+
+.frame2 .item4 .list-car>div {
+    width: 50%;
+}
+
+.frame2 .item4 .list-car .left {
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.frame2 .item4 .list-car .left .car-frame {
+    background: url('../image/frame\ 4.png');
+    width: 100%;
+    height: 282px;
+    background-repeat: round;
+    margin-bottom: 46px;
+    text-align: center;
+}
+
+.frame2 .item4 .list-car .left .car-frame img {
+    height: 95%;
+    width: 100%;
+}
+
+.frame2 .item4 .list-car .left .car-frame .content {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -50px;
+}
+
+.frame2 .item4 .list-car .right {
+    padding-bottom: 46px;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.frame2 .item4 .list-car .right .car-frame {
+    background: url('../image/frame\ 4.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: round;
+    margin-bottom: 46px;
+    text-align: center;
+    padding-top: 28px;
+    box-sizing: border-box;
+}
+
+.frame2 .item4 .list-car .right .car-frame .car {
+    height: 95%;
+    width: 100%;
+}
+
+.frame2 .item4 .list-car .right .car-frame .star {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 117px;
+}
+
+.frame2 .item4 .list-car .right .car-frame .star>div {
+    padding-left: 25px;
+    padding-left: 25px;
+}
+
+.frame2 .item4 .list-car .right .car-frame .title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+}
+
+.frame2 .item4 .list-car .right .car-frame .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 51px;
+}
+
+.frame2 .item4 .list-car .right .car-frame .content>div>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.frame2 .item4 .list-car .right .car-frame .content>div>div>div {
+    margin-right: 30px;
+}
+
+.frame2 .item5 {
+    margin-top: 500px;
+}
+
+.frame2 .item5 .title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.frame2 .item5 .button-frame {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.frame2 .item5 .button-frame .button1 {
+    background: url('../image/verichains.png');
+    width: 314px;
+    height: 96px;
+    margin-top: 135px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.frame2 .item5 .button-frame .button2 {
+    background: url('../image/coinmarketcap-vector-logo.png');
+    width: 314px;
+    height: 96px;
+    margin-top: 135px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.frame2 .item5 .button-frame .button3 {
+    background: url('../image/coingecko-logo-vector.png');
+    width: 314px;
+    height: 96px;
+    margin-top: 135px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+@media screen and (max-width: 576px) {
+    .frame2 .item5 .button-frame .button2 {
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    .frame2 .item5 .button-frame .button1 {
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    .frame2 .item5 .button-frame .button3 {
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
+
+.frame2 .item6 {
+    margin-top: 243px;
+}
+
+
+.frame2 .item6 .title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.frame2 .item6 .content {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 49px;
+}
+
+.frame2 .item6 .subcire {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 90px;
+}
+
+.frame2 .item6 .subcire .button1 {
+    background: url('../image/button-sub.png');
+    background-repeat: round;
+    width: 159px;
+    height: 55px;
+    margin-left: 10px;
+}
+
+.frame2 .item6 .subcire .sub-email {
+    max-width: 400px;
+    width: 50vw
+}
+
+.frame2 .item6 .subcire .sub-email {
+    height: 50px;
+    border-radius: 10px;
+    border: transparent;
+}
+
+.frame2 .item7 {
+    margin-top: 130px;
+    padding-bottom: 322px;
+}
+
+.frame2 .item7 .social-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.frame2 .item7 .social-icon .button1 {
+    background: url('../image/tele.png');
+    width: 43px;
+    height: 43px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.frame2 .item7 .social-icon .button2 {
+    background: url('../image/tw.png');
+    width: 43px;
+    height: 43px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.frame2 .item7 .social-icon .button3 {
+    background: url('../image/yt.png');
+    width: 43px;
+    height: 43px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.frame2 .item7 .social-icon .button4 {
+    background: url('../image/FB.png');
+    width: 43px;
+    height: 43px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
